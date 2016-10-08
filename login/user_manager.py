@@ -26,6 +26,5 @@ class UserManager(object):
             db.session.add(user)
             db.session.commit()
         except Exception as e:
-            print 'Failed to add user', str(e)
             return False
         return True
