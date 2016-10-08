@@ -2,8 +2,11 @@
 A simple user login and registration system in Python.
 
 ## Screenshots
+#### Register
 ![Alt text](screenshots/register.png?raw=true "Register")
+#### Login
 ![Alt text](screenshots/login.png?raw=true "Login")
+#### Login Success
 ![Alt text](screenshots/login_success.png?raw=true "Login Success")
 
 ### Registration
@@ -25,8 +28,8 @@ A simple user login and registration system in Python.
 * Else redirect to login page.
 
 ### Encryption
-sha256 algorithm (from python hashlib library) is used for encrypting passwords.
+* sha256 algorithm (from python hashlib library) is used for encrypting passwords.
 
 ### Backend
-Web framework: flask
-Database: MySql
+* Web framework: flask
+* Database: MySql
